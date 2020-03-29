@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4306F599FB4973B5DB03BA1 /* Pods_MyLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D65FDC38F52A79D415B13E9 /* Pods_MyLive.framework */; };
 		BFBF483E2430C8920091640E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF483D2430C8920091640E /* AppDelegate.m */; };
 		BFBF48412430C8920091640E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48402430C8920091640E /* SceneDelegate.m */; };
 		BFBF48442430C8920091640E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48432430C8920091640E /* ViewController.m */; };
@@ -14,9 +15,24 @@
 		BFBF48492430C8930091640E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBF48482430C8930091640E /* Assets.xcassets */; };
 		BFBF484C2430C8930091640E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBF484A2430C8930091640E /* LaunchScreen.storyboard */; };
 		BFBF484F2430C8930091640E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF484E2430C8930091640E /* main.m */; };
+		BFBF48572430C9CE0091640E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48562430C9CE0091640E /* LoginViewController.m */; };
+		BFBF485A2430CA030091640E /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48592430CA030091640E /* MyTabBarViewController.m */; };
+		BFBF485D2430CCA80091640E /* MyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF485C2430CCA80091640E /* MyCenterViewController.m */; };
+		BFBF48602430CD3C0091640E /* UserInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF485F2430CD3C0091640E /* UserInstance.m */; };
+		BFBF48632430D4FB0091640E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48622430D4FB0091640E /* RegisterViewController.m */; };
+		BFBF486F2430DC950091640E /* FSSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF486A2430DC950091640E /* FSSegmentTitleView.m */; };
+		BFBF48702430DC950091640E /* FSPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF486D2430DC950091640E /* FSPageContentView.m */; };
+		BFBF48762430E8D80091640E /* ApiFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48722430E8D70091640E /* ApiFetch.m */; };
+		BFBF48772430E8D80091640E /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48752430E8D80091640E /* AppModel.m */; };
+		BFBF487A2430E9260091640E /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48792430E9260091640E /* AppManager.m */; };
+		BFBF48822430E9980091640E /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF487D2430E9980091640E /* UserInfo.m */; };
+		BFBF48952430F32C0091640E /* NSArray+YYModelStr.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48912430F32B0091640E /* NSArray+YYModelStr.m */; };
+		BFBF48982430F36D0091640E /* UIViewController+ShowHud.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBF48962430F36D0091640E /* UIViewController+ShowHud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D65FDC38F52A79D415B13E9 /* Pods_MyLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8BE341BC142F343A1B821E /* Pods-MyLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLive.debug.xcconfig"; path = "Target Support Files/Pods-MyLive/Pods-MyLive.debug.xcconfig"; sourceTree = "<group>"; };
 		BFBF48392430C8920091640E /* MyLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBF483C2430C8920091640E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFBF483D2430C8920091640E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +45,37 @@
 		BFBF484B2430C8930091640E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFBF484D2430C8930091640E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFBF484E2430C8930091640E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFBF48552430C9CE0091640E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BFBF48562430C9CE0091640E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BFBF48582430CA030091640E /* MyTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		BFBF48592430CA030091640E /* MyTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		BFBF485B2430CCA80091640E /* MyCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCenterViewController.h; sourceTree = "<group>"; };
+		BFBF485C2430CCA80091640E /* MyCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCenterViewController.m; sourceTree = "<group>"; };
+		BFBF485E2430CD3C0091640E /* UserInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInstance.h; sourceTree = "<group>"; };
+		BFBF485F2430CD3C0091640E /* UserInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInstance.m; sourceTree = "<group>"; };
+		BFBF48612430D4FB0091640E /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		BFBF48622430D4FB0091640E /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		BFBF486A2430DC950091640E /* FSSegmentTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSegmentTitleView.m; sourceTree = "<group>"; };
+		BFBF486B2430DC950091640E /* FSPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPageContentView.h; sourceTree = "<group>"; };
+		BFBF486C2430DC950091640E /* FSScrollContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSScrollContentView.h; sourceTree = "<group>"; };
+		BFBF486D2430DC950091640E /* FSPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPageContentView.m; sourceTree = "<group>"; };
+		BFBF486E2430DC950091640E /* FSSegmentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSegmentTitleView.h; sourceTree = "<group>"; };
+		BFBF48712430E5030091640E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFBF48722430E8D70091640E /* ApiFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiFetch.m; sourceTree = "<group>"; };
+		BFBF48732430E8D70091640E /* AppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		BFBF48742430E8D70091640E /* ApiFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiFetch.h; sourceTree = "<group>"; };
+		BFBF48752430E8D80091640E /* AppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		BFBF48782430E9260091640E /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		BFBF48792430E9260091640E /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		BFBF487C2430E9980091640E /* UserPageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPageInfo.h; sourceTree = "<group>"; };
+		BFBF487D2430E9980091640E /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		BFBF48802430E9980091640E /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		BFBF48812430E9980091640E /* SignPageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignPageInfo.h; sourceTree = "<group>"; };
+		BFBF48912430F32B0091640E /* NSArray+YYModelStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YYModelStr.m"; sourceTree = "<group>"; };
+		BFBF48932430F32B0091640E /* NSArray+YYModelStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YYModelStr.h"; sourceTree = "<group>"; };
+		BFBF48962430F36D0091640E /* UIViewController+ShowHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowHud.m"; sourceTree = "<group>"; };
+		BFBF48972430F36D0091640E /* UIViewController+ShowHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowHud.h"; sourceTree = "<group>"; };
+		C20FAA5353B9B05616D520C5 /* Pods-MyLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLive.release.xcconfig"; path = "Target Support Files/Pods-MyLive/Pods-MyLive.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4306F599FB4973B5DB03BA1 /* Pods_MyLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7989267C4F1F529C62B005 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF8BE341BC142F343A1B821E /* Pods-MyLive.debug.xcconfig */,
+				C20FAA5353B9B05616D520C5 /* Pods-MyLive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		315503D40EDBA20D04400584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D65FDC38F52A79D415B13E9 /* Pods_MyLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFBF48302430C8920091640E = {
 			isa = PBXGroup;
 			children = (
 				BFBF483B2430C8920091640E /* MyLive */,
 				BFBF483A2430C8920091640E /* Products */,
+				1B7989267C4F1F529C62B005 /* Pods */,
+				315503D40EDBA20D04400584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +128,11 @@
 		BFBF483B2430C8920091640E /* MyLive */ = {
 			isa = PBXGroup;
 			children = (
+				BFBF488F2430F32B0091640E /* Category */,
+				BFBF48682430DC680091640E /* ThirdLibrary */,
+				BFBF48662430D87B0091640E /* Main */,
+				BFBF48652430D85D0091640E /* Models */,
+				BFBF48642430D8420091640E /* Network */,
 				BFBF483C2430C8920091640E /* AppDelegate.h */,
 				BFBF483D2430C8920091640E /* AppDelegate.m */,
 				BFBF483F2430C8920091640E /* SceneDelegate.h */,
@@ -72,8 +144,97 @@
 				BFBF484A2430C8930091640E /* LaunchScreen.storyboard */,
 				BFBF484D2430C8930091640E /* Info.plist */,
 				BFBF484E2430C8930091640E /* main.m */,
+				BFBF48712430E5030091640E /* PrefixHeader.pch */,
 			);
 			path = MyLive;
+			sourceTree = "<group>";
+		};
+		BFBF48642430D8420091640E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF48782430E9260091640E /* AppManager.h */,
+				BFBF48792430E9260091640E /* AppManager.m */,
+				BFBF48742430E8D70091640E /* ApiFetch.h */,
+				BFBF48722430E8D70091640E /* ApiFetch.m */,
+				BFBF48732430E8D70091640E /* AppModel.h */,
+				BFBF48752430E8D80091640E /* AppModel.m */,
+				BFBF485E2430CD3C0091640E /* UserInstance.h */,
+				BFBF485F2430CD3C0091640E /* UserInstance.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BFBF48652430D85D0091640E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF487B2430E9980091640E /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFBF48662430D87B0091640E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF48582430CA030091640E /* MyTabBarViewController.h */,
+				BFBF48592430CA030091640E /* MyTabBarViewController.m */,
+				BFBF48672430D92A0091640E /* Center */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFBF48672430D92A0091640E /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF48552430C9CE0091640E /* LoginViewController.h */,
+				BFBF48562430C9CE0091640E /* LoginViewController.m */,
+				BFBF485B2430CCA80091640E /* MyCenterViewController.h */,
+				BFBF485C2430CCA80091640E /* MyCenterViewController.m */,
+				BFBF48612430D4FB0091640E /* RegisterViewController.h */,
+				BFBF48622430D4FB0091640E /* RegisterViewController.m */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		BFBF48682430DC680091640E /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF48692430DC950091640E /* FSScrollContentViewLib */,
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		BFBF48692430DC950091640E /* FSScrollContentViewLib */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF486A2430DC950091640E /* FSSegmentTitleView.m */,
+				BFBF486B2430DC950091640E /* FSPageContentView.h */,
+				BFBF486C2430DC950091640E /* FSScrollContentView.h */,
+				BFBF486D2430DC950091640E /* FSPageContentView.m */,
+				BFBF486E2430DC950091640E /* FSSegmentTitleView.h */,
+			);
+			path = FSScrollContentViewLib;
+			sourceTree = "<group>";
+		};
+		BFBF487B2430E9980091640E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF487C2430E9980091640E /* UserPageInfo.h */,
+				BFBF487D2430E9980091640E /* UserInfo.m */,
+				BFBF48802430E9980091640E /* UserInfo.h */,
+				BFBF48812430E9980091640E /* SignPageInfo.h */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		BFBF488F2430F32B0091640E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF48972430F36D0091640E /* UIViewController+ShowHud.h */,
+				BFBF48962430F36D0091640E /* UIViewController+ShowHud.m */,
+				BFBF48912430F32B0091640E /* NSArray+YYModelStr.m */,
+				BFBF48932430F32B0091640E /* NSArray+YYModelStr.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFBF48522430C8930091640E /* Build configuration list for PBXNativeTarget "MyLive" */;
 			buildPhases = (
+				633D3377990F4EBE57B19C4A /* [CP] Check Pods Manifest.lock */,
 				BFBF48352430C8920091640E /* Sources */,
 				BFBF48362430C8920091640E /* Frameworks */,
 				BFBF48372430C8920091640E /* Resources */,
+				A6AF6C1F84BE2B814CC76049 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,15 +304,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		633D3377990F4EBE57B19C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6AF6C1F84BE2B814CC76049 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyLive/Pods-MyLive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyLive/Pods-MyLive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyLive/Pods-MyLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFBF48352430C8920091640E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BFBF48442430C8920091640E /* ViewController.m in Sources */,
+				BFBF48762430E8D80091640E /* ApiFetch.m in Sources */,
 				BFBF483E2430C8920091640E /* AppDelegate.m in Sources */,
 				BFBF484F2430C8930091640E /* main.m in Sources */,
 				BFBF48412430C8920091640E /* SceneDelegate.m in Sources */,
+				BFBF48982430F36D0091640E /* UIViewController+ShowHud.m in Sources */,
+				BFBF487A2430E9260091640E /* AppManager.m in Sources */,
+				BFBF486F2430DC950091640E /* FSSegmentTitleView.m in Sources */,
+				BFBF48632430D4FB0091640E /* RegisterViewController.m in Sources */,
+				BFBF48702430DC950091640E /* FSPageContentView.m in Sources */,
+				BFBF48952430F32C0091640E /* NSArray+YYModelStr.m in Sources */,
+				BFBF485D2430CCA80091640E /* MyCenterViewController.m in Sources */,
+				BFBF48772430E8D80091640E /* AppModel.m in Sources */,
+				BFBF48602430CD3C0091640E /* UserInstance.m in Sources */,
+				BFBF485A2430CA030091640E /* MyTabBarViewController.m in Sources */,
+				BFBF48822430E9980091640E /* UserInfo.m in Sources */,
+				BFBF48572430C9CE0091640E /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +505,12 @@
 		};
 		BFBF48532430C8930091640E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8BE341BC142F343A1B821E /* Pods-MyLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyLive/PrefixHeader.pch";
 				INFOPLIST_FILE = MyLive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,15 +518,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiangshike.MyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BFBF48542430C8930091640E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20FAA5353B9B05616D520C5 /* Pods-MyLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyLive/PrefixHeader.pch";
 				INFOPLIST_FILE = MyLive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,7 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiangshike.MyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
